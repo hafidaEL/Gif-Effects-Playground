@@ -8,8 +8,9 @@ Orange : #F47E43;*/
 
 html,body {
   height: 100vh;
-  width: 100vw;
-  font-size: 22px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 body {
