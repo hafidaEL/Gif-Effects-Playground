@@ -1,0 +1,38 @@
+/*DarkOne: #212020;
+Orange : #F47E43;*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Varela Round',sans-serif;
+}
+
+html,body {
+  height: 100vh;
+  width: 100vw;
+  font-size: 22px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ico {
+  height: 60px;
+  width: 60px;
+  background: #212020;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+.ico:first-of-type {
+  border-radius: 50% 0 0 50%;
+}
+
+.ico:last-of-type {
+  border-radius: 0 50% 50% 0;
+}
